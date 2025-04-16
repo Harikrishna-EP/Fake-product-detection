@@ -11,9 +11,9 @@
 <body>
     <h2>Enter Your Credential</h2>
     <form action="login.php" method="post">
-        <label for="username">Username:</label><br>
+        
         <input type="text" id="username" name="username" placeholder="Username" required><br><br>
-        <label for="password">Password:</label><br>
+        
         <input type="password" id="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least 8 characters, including a number" required><br><br>
         <input type="submit" value="Login">
     </form>
